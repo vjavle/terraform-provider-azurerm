@@ -104,7 +104,7 @@ The following arguments are supported:
 
 * `additional_capabilities` - (Optional) A `additional_capabilities` block as defined below.
 
-* `additional_unattend_config` - (Optional) One or more `additional_unattend_config` blocks as defined below.
+* `additional_unattend_content` - (Optional) One or more `additional_unattend_content` blocks as defined below.
 
 * `automatic_os_upgrade_policy` - (Optional) A `automatic_os_upgrade_policy` block as defined below. This is Required and can only be specified when `upgrade_mode` is set to `Automatic`.
 
@@ -186,7 +186,7 @@ A `additional_capabilities` block supports the following:
 
 ---
 
-A `additional_unattend_config` block supports the following:
+A `additional_unattend_content` block supports the following:
 
 * `content` - (Required) The XML formatted content that is added to the unattend.xml file for the specified path and component.
 
